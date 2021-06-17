@@ -90,13 +90,19 @@ header {
     flex-flow: column;
     text-align: center;
 }
+header .demo{
+    position: fixed;
+    display: flex;
+    text-align: right;
+    justify-content: right;
+}
 header .user img {
-    height: 17rem;
+    height: 15rem;
     width: 17rem;
-    border-radius: 50%;
+    border-radius: 40%;
     object-fit: cover;
-    margin-bottom: 1rem;
-    border: .7rem solid var(--color);
+    margin-bottom: 2rem;
+    border: .2rem solid var(--color);
 }
 header .user .name {
     font-size: 3.5rem;
@@ -107,20 +113,20 @@ header .user .post {
     color: #222;
 }
 header .navbar {
-    width: 100%;
+    width: 67%;
 }
 header .navbar ul {
     list-style: none;
-    padding: 1rem 3rem;
+    padding: 2rem 2rem;
 }
 header .navbar ul li a {
     display: block;
     padding: 1rem;
-    margin: 1.5rem 0;
-    background: #333;
+    margin: 1rem 0;
+    background: rgb(121, 87, 87);
     color: #fff;
     font-size: 2rem;
-    border-radius: 5rem;
+    border-radius: 3rem;
 }
 header .navbar ul li a:hover {
     background: var(--color);
@@ -189,10 +195,11 @@ header .navbar ul li a:hover {
     color: #222;
     padding: 0 .5rem;
 }
-.about .row .info .social-media{
+.about .row .social-media{
     position: relative;
     display: flex;
     align-items: center;
+    color: maroon;
 }
 .about .row .counter {
     flex: 1 1 48rem;

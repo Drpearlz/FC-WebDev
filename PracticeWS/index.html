@@ -10,8 +10,25 @@
 
 </head>
 <body>
+    <button onclick="myFunction()">Click here</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  var person = prompt("Please enter your name:", "Jay Doe");
+  if (person == null || person == "") {
+    txt = "";
+  } else {
+    txt = "Hello " + person + "!\nHow are you today?";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
     <header>
         <div class="user">
+            <br> <br>
             <img src="Images/mp.png" alt="Peggy">
             <h3 class="name">Peggy Roxy</h3>
             <p class="post">Software Engineer-in-Training</p>
@@ -46,33 +63,34 @@
             <h3><span>Name: </span>Peggy Roxy</h3>
             <h3><span>Posts: </span>FullStack Web Developer, Software Engineer-in-Training</h3>
             <h3><span>Languages: </span>English, Pidgin English & Igbo</h3>
-            <h3><span>FrontEnd Languages: </span>Html, css</h3>
-            <h3><span>BackEnd Languages: </span>Java, Php, SQL, MySQL Server</h3>
+            <h3><span>FrontEnd Languages: </span>HTML5, CSS, Material UI</h3>
+            <h3><span>BackEnd Languages: </span>Java, Php, SQL Server, MySQL, Kotlin and Flutter for Mobile App Development</h3>
             <a href="#">
                 <button class="btn">Download Resume <i class="fas fa-download"></i></button>
-         <div class="social-media">
-                    <a href=""><i class="fa fa-github"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                    <a href=""><i class="fa fa-instagram"></i></a>
-                </div>
             </a>
+        
+         </div>
+    <div class="social-media">
+            <a href="https://www.github.com/drpearlz"><i class="fas fa-github"></i></a>
+            <a href="https://www.facebook.com/peggicherrie"><i class="fas fa-facebook"></i></a>
+            <a href="https://ca.linkedin.com/peggy-roxy-94931a85"><i class="fas fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/dr_pearlz"><i class="fas fa-instagram"></i></a>
         </div>
-
         <div class="counter">
             <div class="box">
-                <span>2+</span>
+                <span>4+</span>
                 <h3>Years of Experience</h3>
             </div>
             <div class="box">
-                <span>100+</span>
+                <span>10+</span>
                 <h3>Projects Completed</h3>
             </div>
             <div class="box">
-                <span>210+</span>
+                <span>134+</span>
                 <h3>Happy Clients</h3>
             </div>
             <div class="box">
-                <span>10+</span>
+                <span>3+</span>
                 <h3>Awards Won</h3>
             </div>
 
@@ -87,46 +105,31 @@
 
     <div class="box">
         <i class="fas fa-graduation-cap"></i>
-        <span>2017</span>
-        <h3>Intermediate Passout</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+        <span>2021</span>
+        <h3>Focus College</h3>
+        <p>Advanced Computing - Software Development Program  
     </div>
    
     <div class="box">
         <i class="fas fa-graduation-cap"></i>
         <span>2018</span>
-        <h3>College Student</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+        <h3>Simon Fraser Univeristy</h3>
+        <p>Bachelors Degree in Health Science
     </div>
+   
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2014</span>
+        <h3>Fraser International College</h3>
+        <p>University Transfer Program (UTP) Stage II, in Health Science.
+     </div>
 
     <div class="box">
         <i class="fas fa-graduation-cap"></i>
-        <span>2021</span>
-        <h3>Founder & CEO of Coding Master</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+        <span>2009</span>
+        <h3>Emarid College</h3>
+        <p>High School Diploma in the Sciences.</p>
     </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2021</span>
-        <h3>Founder & CEO of Coding Master</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2021</span>
-        <h3>Founder & CEO of Coding Master</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2021</span>
-        <h3>Founder & CEO of Coding Master</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-    </div>
-
 </div>
 </section>
 
