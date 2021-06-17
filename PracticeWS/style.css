@@ -97,7 +97,7 @@ header .demo{
     justify-content: right;
 }
 header .user img {
-    height: 15rem;
+    height: 18rem;
     width: 17rem;
     border-radius: 40%;
     object-fit: cover;
@@ -120,7 +120,7 @@ header .navbar ul {
     padding: 2rem 2rem;
 }
 header .navbar ul li a {
-    display: block;
+    display:block;
     padding: 1rem;
     margin: 1rem 0;
     background: rgb(121, 87, 87);
@@ -201,6 +201,7 @@ header .navbar ul li a:hover {
     align-items: center;
     color: maroon;
 }
+
 .about .row .counter {
     flex: 1 1 48rem;
     display: flex;
