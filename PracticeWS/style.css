@@ -90,12 +90,7 @@ header {
     flex-flow: column;
     text-align: center;
 }
-header .demo{
-    position: fixed;
-    display: flex;
-    text-align: right;
-    justify-content: right;
-}
+
 header .user img {
     height: 15rem;
     width: 17rem;
@@ -117,7 +112,7 @@ header .navbar {
 }
 header .navbar ul {
     list-style: none;
-    padding: 2rem 2rem;
+    padding: 1rem 2rem;
 }
 header .navbar ul li a {
     display: block;
@@ -131,12 +126,19 @@ header .navbar ul li a {
 header .navbar ul li a:hover {
     background: var(--color);
 }
+.header .social-media{
+    position: relative;
+    display: flex;
+    font-size: 48px;
+    align-items: center;
+    color: rgb(212, 49, 49);
+}
 #menu {
     position: fixed;
     top: 2rem;
     right: 2rem;
     background: #333;
-    color: #fff;
+    color: rgb(211, 41, 41);
     cursor: pointer;
     font-size: 2.5rem;
     padding: 1rem 1.5rem;
@@ -195,12 +197,7 @@ header .navbar ul li a:hover {
     color: #222;
     padding: 0 .5rem;
 }
-.about .row .social-media{
-    position: relative;
-    display: flex;
-    align-items: center;
-    color: maroon;
-}
+
 .about .row .counter {
     flex: 1 1 48rem;
     display: flex;
@@ -356,6 +353,13 @@ header .navbar ul li a:hover {
 .contact .row .content .info h3 i {
     padding-right: 1rem;
     color: var(--color);
+}
+.footer .social-media-footer {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
 }
 
 /* Contact Section Ends */
